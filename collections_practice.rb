@@ -34,3 +34,16 @@ def reverse_array(array)
   array
 end
 
+def kesha_maker(array)
+  i=0
+  new_arr = []
+  array.each{|e| e[2]=$
+    new_arr[i] = e
+    i +=1
+  }
+  new_arr
+end
+  
+  
+  
+  
