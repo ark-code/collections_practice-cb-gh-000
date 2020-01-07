@@ -4,7 +4,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array = array.sort(-1)
+  array = array.sort()
   return array.reverse
 end
   
