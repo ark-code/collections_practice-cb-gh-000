@@ -49,6 +49,9 @@ def find_a(array)
      |e| e.start_with?("a")  
    } 
 end
+
+def sum_array(array)
+  
   
   
   
