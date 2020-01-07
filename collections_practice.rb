@@ -8,3 +8,8 @@ def sort_array_desc(array)
   return array.reverse
 end
   
+def sort_array_char_count(array)
+  array = array.sort { |e|
+    e.length 
+  }
+end
