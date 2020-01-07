@@ -46,7 +46,7 @@ end
   
 def find_a(array)
   array.select{
-     |e| e.starts_with?('a')  
+     |e| e.starts_with? 'a'   
    } 
 end
   
